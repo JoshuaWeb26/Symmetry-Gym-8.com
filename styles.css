@@ -1,0 +1,115 @@
+/* Configuración General */
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Encabezados */
+h1 {
+  color: #00d2ff; /* Azul eléctrico */
+  font-size: 3rem; /* Ajustado para pantallas modernas (equivalente a un título grande) */
+  text-align: center;
+  margin: 20px auto;
+}
+
+h2 {
+  color: #87ceeb; /* Celeste */
+  font-size: 2rem;
+  text-align: center;
+  margin: 25px 0 15px 0;
+}
+
+/* Párrafos y Enlaces */
+p {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+a {
+  color: #00d2ff;
+  text-decoration: underline;
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Imágenes */
+img {
+  width: 100%;
+  height: 500px;
+  margin: 20px auto;
+  display: block;
+  max-width: 800px;
+  border-radius: 8px;
+}
+
+/* Listas */
+ul {
+  color: yellow;
+  font-size: 1.25rem;
+  max-width: 600px;
+  margin: 20px auto;
+  padding-left: 40px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Formularios e Inputs */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px 14px;
+  border: 1px solid white;
+  background-color: #111;
+  color: greenyellow;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #222;
+  cursor: pointer;
+  font-weight: bold;
+  width: auto;
+  padding: 10px 25px;
+  margin-top: 15px;
+}
+
+/* Pie de Página */
+footer {
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+}
+
+/* Botones */
+button {
+  padding: 8px 16px;
+  color: red;
+  background-color: #222;
+  border: 1px solid red;
+  border-radius: 4px;
+  margin: 15px auto;
+  cursor: pointer;
+  display: block;
+}
